@@ -1,0 +1,31 @@
+{
+  "name": "overwatch-js",
+  "version": "1.0.0",
+  "description": "NodeJS Overwatch API : Retrieve informations about heroes/players from Overwatch Official Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gclem/overwatch-js.git"
+  },
+  "keywords": [
+    "overwatch"
+  ],
+  "author": "gclem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gclem/overwatch-js/issues"
+  },
+  "homepage": "https://github.com/gclem/overwatch-js#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.4",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
