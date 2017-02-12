@@ -2,6 +2,7 @@
 NodeJS Overwatch library : Retrieve informations about heroes/players from Overwatch Official Website [Overwatch](https://playoverwatch.com)
 
 ## Functionalities
+* Search for a player
 * Global profile datas
 * Career profile datas with heroes statistics
 
@@ -17,6 +18,8 @@ npm install overwatch-js
 ## How to
 
 Extremely simple use case. See `specs/mocktest.js`
+
+#### Search for a player : 
 
 ``` javascript
 var owjs = require('overwatch-js');
@@ -37,6 +40,8 @@ owjs
     tier: 2 } ]
 ```
 
+#### Overall statistics : 
+
 ``` javascript
 var owjs = require('overwatch-js');
 //// Retrive only overall stats
@@ -45,12 +50,14 @@ owjs
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
 ```
 
+#### All statistics with heroes details : 
+
 ``` javascript
 var owjs = require('overwatch-js');
 
 //// Retrieve all stats, including heroes details
 owjs
-    .getOverall('pc', 'eu', 'Zeya-2303')
+    .getAll('pc', 'eu', 'Zeya-2303')
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
 ```
 
