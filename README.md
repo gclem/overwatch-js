@@ -31,7 +31,7 @@ owjs
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
 ```
 
-``` json
+``` javascript
 [ { careerLink: '/career/pc/eu/Zeya-2303',
     platformDisplayName: 'Zeya#2303',
     level: 64,
@@ -66,7 +66,7 @@ Where `pc` is the platform, `eu` is the region, and `Zeya-2303` the nickname.
 
 #### Available informations :
 
-``` json
+``` javascript
 { profile: 
    { nick: 'Zeya',
      level: 76,
