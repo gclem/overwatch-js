@@ -211,7 +211,38 @@ Where `pc` is the platform, `eu` is the region, and `Zeya-2303` the nickname.
         'lúcio': [Object],
         'd.va': [Object],
         mei: [Object],
-        ana: [Object] } } }
+        ana: [Object] 
+      } 
+    },
+ achievements: 
+   [ { acquired: true,
+       thumbnail: 'https://blzgdapipro-a.akamaihd.net/game/achievements/0x0E60000000000156.png',
+       title: 'Centenary',
+       description: 'Win 100 games in Quick or Competitive Play.',
+       category: 'general' },
+     { acquired: true,
+       thumbnail: 'https://blzgdapipro-a.akamaihd.net/game/achievements/0x0E60000000000157.png',
+       title: 'Level 10',
+       description: 'Reach level 10.',
+       category: 'general' },
+     { acquired: true,
+       thumbnail: 'https://blzgdapipro-a.akamaihd.net/game/achievements/0x0E60000000000158.png',
+       title: 'Level 25',
+       description: 'Reach level 25.',
+       category: 'general' },
+     { acquired: true,
+       thumbnail: 'https://blzgdapipro-a.akamaihd.net/game/achievements/0x0E60000000000159.png',
+       title: 'Level 50',
+       description: 'Reach level 50.',
+       category: 'general' },
+     { acquired: true,
+       thumbnail: 'https://blzgdapipro-a.akamaihd.net/game/achievements/0x0E6000000000015D.png',
+       title: 'Undying',
+       description: 'Get a 20 player kill streak in Quick or Competitive Play.',
+       category: 'general' }
+     [...] 
+   ]
+}
 ```
 
 ## License
