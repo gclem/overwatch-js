@@ -73,6 +73,9 @@ Where `pc` is the platform, `eu` is the region, and `Zeya-2303` the nickname.
      avatar: 'https://blzgdapipro-a.akamaihd.net/game/unlocks/0x02500000000008B8.png',
      rank: 2065,
      rankPicture: 'https://blzgdapipro-a.akamaihd.net/game/rank-icons/season-2/rank-3.png',
+     tier: '0',
+     season: { id: '2', rank: '2' },
+     ranking: 'Gold',
      platform: '',
      url: 'https://playoverwatch.com/en-us/career/pc/eu/Zeya-2303' },
   competitive: 
