@@ -17,6 +17,13 @@ NodeJS Overwatch library : Retrieve informations about heroes/players from Overw
 npm install overwatch-js
 ```
 
+## Self-hosted
+You can test this lib, through a self hosted web api endpoint.
+This web api is hosted on my servers, doesn't write logs, and is totally secure. 
+
+You can find the repo here : [overwatch-api Repository ](https://github.com/gclem/overwatch-webapi)
+You can enjoy here : [owjs.ovh](https://owjs.ovh)
+
 ## How to
 
 Extremely simple use case. See `specs/mocktest.js`
