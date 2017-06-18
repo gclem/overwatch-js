@@ -8,14 +8,14 @@ NodeJS Overwatch library : Retrieve informations about heroes/players from Overw
 * Global profile datas
 * Career profile datas with heroes statistics
 
-# Last activities
-* [Issues](https://github.com/gclem/overwatch-js/issues/7) : Fix the ranking interpretation (silver, gold, platinum etc.)
-* [Issues](https://github.com/gclem/overwatch-js/issues/6) : Fix global decimal rounding 
+## Last activities
+* [Issue](https://github.com/gclem/overwatch-js/issues/7) : Fix the ranking interpretation (silver, gold, platinum etc.)
+* [Issue](https://github.com/gclem/overwatch-js/issues/6) : Fix global decimal rounding 
 * [Enhancement](https://github.com/gclem/overwatch-js/issues/5) : Adding tiers information
 * [Enchancement](https://github.com/gclem/overwatch-js/issues/4) : Adding achievements informations
 * [Enchancement](https://github.com/gclem/overwatch-js/issues/3) : Selfhosting : [owjs.ovh](https://owjs.ovh)
-* [Issues](https://github.com/gclem/overwatch-js/issues/2) : @LanaCoyote : Fix date parsing
-* [Issues](https://github.com/gclem/overwatch-js/issues/1) : Managing XBL and PSN profile
+* [Issue](https://github.com/gclem/overwatch-js/issues/2) : @LanaCoyote : Fix date parsing
+* [Issue](https://github.com/gclem/overwatch-js/issues/1) : Managing XBL and PSN profile
 
 ## Install
 
