@@ -1,6 +1,6 @@
 {
   "name": "overwatch-js",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "NodeJS Overwatch API : Retrieve informations about heroes/players from Overwatch Official Website",
   "main": "index.js",
   "scripts": {
