@@ -9,6 +9,8 @@ NodeJS Overwatch library : Retrieve informations about heroes/players from Overw
 * Career profile datas with heroes statistics
 
 ## Last activities
+* [Enhancement](https://github.com/gclem/overwatch-js/issues/9) : Node > 4 compliant
+* [Issue](https://github.com/gclem/overwatch-js/issues/8) : Fix special characters in username
 * [Issue](https://github.com/gclem/overwatch-js/issues/7) : Fix the ranking interpretation (silver, gold, platinum etc.)
 * [Issue](https://github.com/gclem/overwatch-js/issues/6) : Fix global decimal rounding 
 * [Enhancement](https://github.com/gclem/overwatch-js/issues/5) : Adding tiers information
@@ -20,7 +22,7 @@ NodeJS Overwatch library : Retrieve informations about heroes/players from Overw
 ## Install
 
 #### Requirements
-* Node v6.0+
+* Node v4.0+
 
 ```bash
 npm install overwatch-js
