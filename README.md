@@ -93,7 +93,7 @@ owjs
 
 //// With custom locale
 owjs
-    .getAll('pc', 'eu', 'Zeya-2303', false, 'de-de')
+    .getAll('pc', 'eu', 'Zeya-2303', 'de-de')
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
 ```
 
