@@ -49,6 +49,11 @@ var owjs = require('overwatch-js');
 owjs
     .search('Zeya-2303')
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
+
+//// With custom locales
+owjs
+    .search('Zeya-2303', 'de-de')
+    .then((data) => console.dir(data, {depth : 2, colors : true}) );
 ```
 
 ``` javascript
@@ -69,6 +74,11 @@ var owjs = require('overwatch-js');
 owjs
     .getOverall('pc', 'eu', 'Zeya-2303')
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
+
+//// With custom locale
+owjs
+    .getOverall('pc', 'eu', 'Zeya-2303', 'de-de')
+    .then((data) => console.dir(data, {depth : 2, colors : true}) );
 ```
 
 #### All statistics with heroes details : 
@@ -80,9 +90,14 @@ var owjs = require('overwatch-js');
 owjs
     .getAll('pc', 'eu', 'Zeya-2303')
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
+
+//// With custom locale
+owjs
+    .getAll('pc', 'eu', 'Zeya-2303', false, 'de-de')
+    .then((data) => console.dir(data, {depth : 2, colors : true}) );
 ```
 
-Where `pc` is the platform, `eu` is the region, and `Zeya-2303` the nickname. 
+Where `pc` is the platform, `eu` is the region, `Zeya-2303` the nickname, optionnaly : `de-de` a specific locale
 
 #### Available informations :
 
