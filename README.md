@@ -9,6 +9,7 @@ NodeJS Overwatch library : Retrieve informations about heroes/players from Overw
 * Career profile datas with heroes statistics
 
 ## Last activities
+* [Enhancement](https://github.com/gclem/overwatch-js/issues/14) : Manage new search format with #
 * [Enhancement](https://github.com/gclem/overwatch-js/issues/9) : Node > 4 compliant
 * [Issue](https://github.com/gclem/overwatch-js/issues/8) : Fix special characters in username
 * [Issue](https://github.com/gclem/overwatch-js/issues/7) : Fix the ranking interpretation (silver, gold, platinum etc.)
@@ -47,12 +48,12 @@ var owjs = require('overwatch-js');
 
 //// Search for a player ( you must have the exact username, if not Blizzard api will return a not found status)
 owjs
-    .search('Zeya-2303')
+    .search('Zeya#2303')
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
 
 //// With custom locales
 owjs
-    .search('Zeya-2303', 'de-de')
+    .search('Zeya#2303', 'de-de')
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
 ```
 
