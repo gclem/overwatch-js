@@ -9,6 +9,7 @@ NodeJS Overwatch library : Retrieve informations about heroes/players from Overw
 * Career profile datas with heroes statistics
 
 ## Last activities
+* [Issue] : Return empty object instead of error when profile doesn't exists
 * [Enhancement](https://github.com/gclem/overwatch-js/issues/14) : Manage new search format with #
 * [Enhancement](https://github.com/gclem/overwatch-js/issues/9) : Node > 4 compliant
 * [Issue](https://github.com/gclem/overwatch-js/issues/8) : Fix special characters in username
