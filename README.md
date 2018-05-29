@@ -183,9 +183,6 @@ Where `pc` is the platform, `eu` is the region, `Zeya-2303` the nickname, option
          "damage_done":409039
       },
       "heroes":{
-         "competitive":{
-
-         },
          "reaper":{
             "death_blossom_kills":7,
             "death_blossom_kills_most_in_game":5,
