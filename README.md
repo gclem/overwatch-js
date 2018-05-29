@@ -9,6 +9,8 @@ NodeJS Overwatch library : Retrieve informations about heroes/players from Overw
 * Career profile datas with heroes statistics
 
 ## Last activities
+* [Issue](https://github.com/gclem/overwatch-js/issues/21) : Fix mostplayed heroe in masteringHeroe property 
+* [Issue](https://github.com/gclem/overwatch-js/issues/20) : Fix search method on updated JSON format
 * [Issue] : Return "PROFILE_NOT_FOUND" error handled promise object instead of stack error when profile doesn't exists
 * [Enhancement](https://github.com/gclem/overwatch-js/issues/14) : Manage new search format with #
 * [Enhancement](https://github.com/gclem/overwatch-js/issues/9) : Node > 4 compliant
