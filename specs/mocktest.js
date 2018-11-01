@@ -3,12 +3,12 @@
 
 var ow = require('../index.js');
 
-ow.search('SĔNPAI-1698')
+ow.search('DanIV-21904')
     .then((data) => console.dir(data, {depth : 3, colors : true}) );
 
-ow.getAll('pc', 'eu', 'Zeya-2303', true, 'de-de')
+ow.getAll('pc', 'eu', 'DanIV-21904', true, 'de-de')
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
 
 //// Special characters
-ow.getAll('pc', 'us', 'SĔNPAI-1698')
+ow.getAll('pc', 'us', 'DanIV-21904')
     .then((data) => console.dir(data, {depth : 2, colors : true}) );
