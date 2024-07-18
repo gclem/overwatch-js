@@ -3,6 +3,8 @@ NodeJS Overwatch library : Retrieve informations about heroes/players from Overw
 
 [![NPM](https://nodei.co/npm/overwatch-js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/overwatch-js/)
 
+## This repository is DEPRECATED 
+
 ## Functionalities
 * Search for a player
 * Global profile datas
